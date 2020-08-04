@@ -1,0 +1,7 @@
+D:\C#\C# Projects\Console\ShopCart\bin\Debug\ShopCart.exe.config
+D:\C#\C# Projects\Console\ShopCart\bin\Debug\ShopCart.exe
+D:\C#\C# Projects\Console\ShopCart\bin\Debug\ShopCart.pdb
+D:\C#\C# Projects\Console\ShopCart\obj\Debug\ShopCart.csprojAssemblyReference.cache
+D:\C#\C# Projects\Console\ShopCart\obj\Debug\ShopCart.csproj.CoreCompileInputs.cache
+D:\C#\C# Projects\Console\ShopCart\obj\Debug\ShopCart.exe
+D:\C#\C# Projects\Console\ShopCart\obj\Debug\ShopCart.pdb

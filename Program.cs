@@ -156,14 +156,14 @@ namespace ShopCart
             products.Add(product9);
             products.Add(product10);
 
-            product1.ProductId = 100;
             foreach (Product p in products)
             {
                 Console.WriteLine("{0}\n{1}\n{2}\nRs.{3}\n{4}%\nRs.{5}", p.ProductName,p.ProductDescription,p.Brand,p.MRP,p.Discount,p.OurPrice);
+                //Console.WriteLine("{0}\t|\n{1}\t|\n{2}\t|\nRs.{3}\t|\n{4}%\t|\nRs.{5}\t|", p.ProductName,p.ProductDescription,p.Brand,p.MRP,p.Discount,p.OurPrice);
                 Console.WriteLine(dash);
             }
                     
-
+           
 
             Console.ReadKey();
         }

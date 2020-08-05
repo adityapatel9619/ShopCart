@@ -8,13 +8,14 @@ namespace ShopCart
 {
     class Product
     {
+        //Backing Fields 
         private int productID ;
         private string categoryName, categoryID, pCode ,productName, pDesc, brand;
         private double mrp, discount, ourPrice;
 
         //Int property
         public int ProductId { get { return productID; } set { productID = value; } }
-
+        //Above used backing fields just for trial
         //String property
         public string CategoryId { get; set; }
         public string CategoryName { get; set; }

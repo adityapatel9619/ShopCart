@@ -159,7 +159,7 @@ namespace ShopCart
             product1.ProductId = 100;
             foreach (Product p in products)
             {
-                Console.WriteLine("Name: {0}\nDescription:{1}\nBrand:{2}\nMrp:{3}\nDiscount:{4}\nOur Price:{5}", p.ProductName,p.ProductDescription,p.Brand,p.MRP,p.Discount,p.OurPrice);
+                Console.WriteLine("{0}\n{1}\n{2}\nRs.{3}\n{4}%\nRs.{5}", p.ProductName,p.ProductDescription,p.Brand,p.MRP,p.Discount,p.OurPrice);
                 Console.WriteLine(dash);
             }
                     

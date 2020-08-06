@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace ShopCart
 {
     class Product
@@ -25,7 +21,7 @@ namespace ShopCart
         public string Brand { get; set; }
 
         //Double property
-        public double MRP { get; set; }
+        public string MRP { get ; set; }
         public double Discount { get; set; }
         public double OurPrice { get; set; }
 

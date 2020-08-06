@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,13 +9,13 @@ namespace ShopCart
 {
     class Backup_Codes
     {
-        /*
-        using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+        //Do Not Use Without Proper Instruction
+        //This part is just for codes which were modified previously but has importance in future development of this application
 
+
+
+        /*
+        
 namespace ShopCart
 {
     class Program

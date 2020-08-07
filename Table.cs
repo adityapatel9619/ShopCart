@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,6 +13,7 @@ namespace ShopCart
         static int tableWidth = 73;
        public static void PrintLine()
         {
+            
             Console.WriteLine(new string('-', tableWidth));
         }
         public static void PrintRow(params string[] columns)
@@ -42,13 +44,14 @@ namespace ShopCart
 
         
       public static string t = @"
-             _______. __    __    ______   .______     ______     ___      .______     .___________.
-            /       ||  |  |  |  /  __  \  |   _  \   /      |   /   \     |   _  \    |           |
-           |   (----`|  |__|  | |  |  |  | |  |_)  | |  ,----'  /  ^  \    |  |_)  |   `---|  |----`
-            \   \    |   __   | |  |  |  | |   ___/  |  |      /  /_\  \   |      /        |  |     
-        .----)   |   |  |  |  | |  `--'  | |  |      |  `----./  _____  \  |  |\  \----.   |  |     
-        |_______/    |__|  |__|  \______/  | _|       \______/__/     \__\ | _| `._____|   |__|     
-
+                       _____   _                          _____                  _   
+                      / ____| | |                        / ____|                | |  
+                     | (___   | |__     ___    _ __     | |        __ _   _ __  | |_ 
+                      \___ \  | '_ \   / _ \  | '_ \    | |       / _` | | '__| | __|
+                      ____) | | | | | | (_) | | |_) |   | |____  | (_| | | |    | |_ 
+                     |_____/  |_| |_|  \___/  | .__/     \_____|  \__,_| |_|     \__|
+                                              | |                                    
+                                              |_|                                    
 
                         ";
         //<end>

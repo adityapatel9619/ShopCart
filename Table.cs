@@ -10,10 +10,10 @@ namespace ShopCart
    public static class Table
     {
         //Table Area
-        static int tableWidth = 73;
-       public static void PrintLine()
+        static int tableWidth = 190;
+        public static void PrintLine()
         {
-            
+
             Console.WriteLine(new string('-', tableWidth));
         }
         public static void PrintRow(params string[] columns)
@@ -42,8 +42,8 @@ namespace ShopCart
             }
         }
 
-        
-      public static string t = @"
+
+        public static string t = @"
                        _____   _                          _____                  _   
                       / ____| | |                        / ____|                | |  
                      | (___   | |__     ___    _ __     | |        __ _   _ __  | |_ 
